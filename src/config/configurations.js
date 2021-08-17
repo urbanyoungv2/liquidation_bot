@@ -1,4 +1,4 @@
-const NETWORK="homestead"
+const NETWORK="rinkeby"
 const URL= null
 const BLOCKSTART=0 
 const RERUNTIME=180000
@@ -6,7 +6,7 @@ const GASPRICE=20000000000
 const ERASE_DATABASE_ON_SYNC=false
 const TIMEZONE = "America/Toronto"
 const PRUNING = true
-const EXCHANGE_ADDRESSES =  ["0xF2d5cBa15c8367dd016FC9c4711443e61c7d95A6"]
+const EXCHANGE_ADDRESSES =  ["0x03cb1f9422E290C8bFD93D8FEBA5DE6bb90c53B6"]
 
 
 module.exports = {
