@@ -75,7 +75,7 @@ const checkTradeIsClose = async (tradeId, contract) => {
                 isLong: true, 
                 liquidationPrice: "0",
                 block: "0",
-                exchangeAddress: contract.address
+                exchangeAddress: contract.address: erc20"0x03cb1f9422E290C8bFD93D8FEBA5DE6bb90c53B6"
             }
             post(obj, "remove")
             logger.log('info',  {message: `tradeId: ${tradeId} closed`,})
